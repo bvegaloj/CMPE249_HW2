@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Large data files
+*.bin
+*.pcd
+*.pcd.bin
+*.pkl
+*.pth
+*.zip
+
+# Results directories (too large for GitHub)
+demo_results*/
+results*/
+metrics*/
+visualizations/
+nuscenes_metrics/
+data/
+
+# Videos
+*.mp4
+*.avi
+
+# Large images
+*.png
+*.jpg
+*.jpeg
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*~
