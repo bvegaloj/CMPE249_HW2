@@ -4,7 +4,7 @@ Daniel Vega Lojo
 015202291  
 CMPE 249
 
-Code repository: [text](https://github.com/bvegaloj/CMPE249_HW2)
+Code repository: [https://github.com/bvegaloj/CMPE249_HW2](https://github.com/bvegaloj/CMPE249_HW2)
 ---
 
 To investigate 3D object detection performance across different model architectures and datasets, three pre-trained models were evaluated using the MMDetection3D framework on both KITTI and NuScenes datasets. Specifically, PointPillars models with single-class (car-only) and multi-class (car, pedestrian, cyclist) configurations were compared against CenterPoint to assess detection accuracy, cross-dataset generalization, and class-specific performance. Additionally, a custom evaluation script (`mmdet3d_metrics_eval.py`) was developed by modifying the course reference script (`mmdet3d_inference2.py`) to compute official KITTI metrics (mAP, precision, recall, IoU) after the built-in evaluation pipeline failed due to dependency conflicts. The models were tested on KITTI's forward-facing 64-beam LiDAR data and NuScenes' 360° 32-beam configuration to evaluate the impact of sensor characteristics and dataset domain on detection performance.
